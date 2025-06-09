@@ -32,6 +32,15 @@ int getMenu() {
 }
 
 // Menambahkan Pasien
+void addDataPasien(fstream &data){
+
+    Pasien inputPasien, lastPasien;
+
+    int size = getDataSize(data);
+
+    cout << "ukuran data : " << size << endl;
+}
+
 // void tambahPasien(string nama, long long nik, int usia, string keluhan,string waktuDaftar,int prioritas) {
 //     pasien p = {nomorAntrian++,nama, nik, usia, keluhan, waktuDaftar, prioritas};
 //     antrian.push(p);
@@ -83,5 +92,6 @@ int main() {
     }
     cout << "akhir dari program" << endl;
     cin.get();
+    
     return 0;
 }
